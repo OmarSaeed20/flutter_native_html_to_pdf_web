@@ -17,7 +17,7 @@ Add this to your package's `pubspec.yaml` file:
 
 dependencies:
 ```yaml
-  flutter_native_html_to_pdf: ^3.0.0
+  flutter_native_html_to_pdf: ^3.1.0
 ```
 
 ## Usage
