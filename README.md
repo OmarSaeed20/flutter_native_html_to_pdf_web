@@ -165,8 +165,12 @@ final pdfFile = await converter.convertHtmlToPdf(...);
 
 - ✅ Android (uses Android WebView)
 - ✅ iOS (uses WKWebView)
+- ✅ Web compile support
 
-**Note:** This version requires native platform support and currently works on Android and iOS.
+**Note:** HTML-to-PDF conversion currently works on Android and iOS. Web apps
+can depend on and compile this package, but conversion methods throw a
+`PlatformException` with code `UNSUPPORTED_PLATFORM` because browsers do not
+expose generated PDF files or bytes to JavaScript.
 
 ## Note
 

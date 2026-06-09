@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +27,6 @@ flutter:
         pluginClass: FlutterNativeHtmlToPdfPlugin
       ios:
         pluginClass: FlutterNativeHtmlToPdfPlugin
+      web:
+        pluginClass: FlutterNativeHtmlToPdfWeb
+        fileName: flutter_native_html_to_pdf_web.dart
